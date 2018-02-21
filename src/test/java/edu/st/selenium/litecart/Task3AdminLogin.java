@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-public class AdminLogin {
+public class Task3AdminLogin {
 
     private WebDriver driver;
     private WebDriverWait wait;
