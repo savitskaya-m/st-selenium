@@ -14,7 +14,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 
-public class Task3RunBrowsers {
+public class Task4RunBrowsers {
     private WebDriver driver;
 
     @Before

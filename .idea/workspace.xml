@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9817a617-c0b6-45fe-b995-806b073b6eed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task3RunBrowsers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/selenium/litecart/AdminLogin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/selenium/misc/FirstTask.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/AdminLogin.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task3AdminLogin.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/FirstTask.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task1OpenPage.java" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/misc/Task3RunBrowsers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task3RunBrowsers.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task4RunBrowsers.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task3RunBrowsers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task3RunBrowsers.java">
+      <file leaf-file-name="Task4RunBrowsers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task4RunBrowsers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
+            <state relative-caret-position="731">
               <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,11 +77,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task7LeftMenu.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task7LeftMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+            <state relative-caret-position="456">
+              <caret line="50" column="81" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task8Stickers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -411,6 +421,7 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/AdminLeftMenu.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/HomeTask7.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java" />
       </list>
     </option>
   </component>
@@ -490,6 +501,15 @@
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="litecart" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="st-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="st-selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -520,7 +540,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Task8Stickers">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -567,26 +587,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FirstTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="st-selenium_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="selenium.litecart.misc" />
-      <option name="MAIN_CLASS_NAME" value="selenium.litecart.misc.FirstTask" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="Task3AdminLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -612,7 +612,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Task3RunBrowsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task4RunBrowsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.st.selenium.misc.*" />
@@ -623,7 +623,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.st.selenium.misc" />
-      <option name="MAIN_CLASS_NAME" value="edu.st.selenium.misc.Task3RunBrowsers" />
+      <option name="MAIN_CLASS_NAME" value="edu.st.selenium.misc.Task4RunBrowsers" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -649,6 +649,31 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.st.selenium.litecart" />
       <option name="MAIN_CLASS_NAME" value="edu.st.selenium.litecart.Task7LeftMenu" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Task8Stickers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.st.selenium.litecart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="st-selenium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.st.selenium.litecart" />
+      <option name="MAIN_CLASS_NAME" value="edu.st.selenium.litecart.Task8Stickers" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -723,19 +748,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTask" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AdminLogin" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Task3AdminLogin" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Task3RunBrowsers" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Task7LeftMenu" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AdminLogin" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Task3AdminLogin" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Task4RunBrowsers" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Task7LeftMenu" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Task8Stickers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Task7LeftMenu" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Task3RunBrowsers" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Task3AdminLogin" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AdminLogin" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTask" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Task8Stickers" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Task7LeftMenu" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Task4RunBrowsers" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Task3AdminLogin" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AdminLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -756,15 +781,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 15h 54m 13s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 01m 35s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 04m 55s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 05m 40s.xml">
       <configuration name="AdminLeftMenu" configurationId="JUnit" />
     </history-entry>
@@ -785,6 +801,15 @@
     </history-entry>
     <history-entry file="Task7LeftMenu - 2018.02.21 at 16h 24m 28s.xml">
       <configuration name="Task7LeftMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Task8Stickers - 2018.02.21 at 18h 36m 39s.xml">
+      <configuration name="Task8Stickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Task8Stickers - 2018.02.21 at 18h 36m 57s.xml">
+      <configuration name="Task8Stickers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Task8Stickers - 2018.02.21 at 18h 37m 52s.xml">
+      <configuration name="Task8Stickers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -898,18 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task3RunBrowsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task3AdminLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -920,10 +933,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task4RunBrowsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+        <state relative-caret-position="456">
+          <caret line="50" column="81" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
