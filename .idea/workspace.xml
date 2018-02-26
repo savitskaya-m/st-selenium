@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9817a617-c0b6-45fe-b995-806b073b6eed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task9TestSorting.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/TestBase.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/misc/Task3RunBrowsers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task3RunBrowsers.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task4RunBrowsers.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,8 +52,8 @@
       <file leaf-file-name="Task3AdminLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task3AdminLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="5" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="493">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +64,7 @@
       <file leaf-file-name="Task4RunBrowsers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task4RunBrowsers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
+            <state relative-caret-position="374">
               <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,11 +87,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task8Stickers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task8Stickers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="-17">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task9TestSorting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task9TestSorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -422,6 +442,8 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/HomeTask7.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task9TestSorting.java" />
       </list>
     </option>
   </component>
@@ -540,7 +562,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Task8Stickers">
+  <component name="RunManager" selected="JUnit.Task9TestSorting">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -561,31 +583,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="AdminLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="selenium.litecart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="st-selenium_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="selenium.litecart" />
-      <option name="MAIN_CLASS_NAME" value="selenium.litecart.AdminLogin" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="Task3AdminLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -687,6 +684,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="Task9TestSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.st.selenium.litecart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="st-selenium_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.st.selenium.litecart" />
+      <option name="MAIN_CLASS_NAME" value="edu.st.selenium.litecart.Task9TestSorting" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -748,19 +770,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AdminLogin" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Task3AdminLogin" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Task4RunBrowsers" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Task7LeftMenu" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Task8Stickers" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Task3AdminLogin" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Task4RunBrowsers" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Task7LeftMenu" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Task8Stickers" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Task9TestSorting" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Task8Stickers" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Task7LeftMenu" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Task4RunBrowsers" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Task3AdminLogin" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AdminLogin" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Task9TestSorting" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Task8Stickers" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Task7LeftMenu" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Task4RunBrowsers" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Task3AdminLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -781,35 +803,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 05m 40s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 17h 06m 56s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 06m 50s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 17h 42m 16s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 07m 29s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 17h 53m 11s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 08m 05s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 18h 03m 32s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 14m 53s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 18h 05m 40s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminLeftMenu - 2018.02.21 at 16h 17m 22s.xml">
-      <configuration name="AdminLeftMenu" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 18h 06m 54s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task7LeftMenu - 2018.02.21 at 16h 24m 28s.xml">
-      <configuration name="Task7LeftMenu" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 18h 07m 41s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task8Stickers - 2018.02.21 at 18h 36m 39s.xml">
-      <configuration name="Task8Stickers" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 18h 08m 52s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task8Stickers - 2018.02.21 at 18h 36m 57s.xml">
-      <configuration name="Task8Stickers" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 18h 12m 23s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Task8Stickers - 2018.02.21 at 18h 37m 52s.xml">
-      <configuration name="Task8Stickers" configurationId="JUnit" />
+    <history-entry file="Task9TestSorting - 2018.02.26 at 18h 18m 56s.xml">
+      <configuration name="Task9TestSorting" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -818,7 +840,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -851,7 +873,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -909,6 +931,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="50" column="81" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task4RunBrowsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task1OpenPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -925,40 +987,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task3AdminLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task4RunBrowsers.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task9TestSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="50" column="81" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="473">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
