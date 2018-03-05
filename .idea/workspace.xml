@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9817a617-c0b6-45fe-b995-806b073b6eed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/Task12AddProduct.class" afterPath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/Task12AddProduct.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/Task3AdminLogin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/Task7LeftMenu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/Task8Stickers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/Task9TestSorting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/misc/Task1OpenPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/misc/Task4RunBrowsers.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task3AdminLogin.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task03AdminLogin.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task7LeftMenu.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task07LeftMenu.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task8Stickers.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task08Stickers.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task9TestSorting.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task09TestSorting.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/TestBase.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task1OpenPage.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task01OpenPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task4RunBrowsers.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/misc/Task04RunBrowsers.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,12 +34,12 @@
       <file leaf-file-name="Task13Cart.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="53" column="101" lean-forward="false" selection-start-line="53" selection-start-column="101" selection-end-line="53" selection-end-column="101" />
+            <state relative-caret-position="694">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2430#2431#0" expanded="true" />
-                <element signature="e#2488#2489#0" expanded="true" />
+                <element signature="e#2387#2388#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -862,9 +847,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Task13Cart - 2018.03.05 at 17h 40m 11s.xml">
-      <configuration name="Task13Cart" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Task13Cart - 2018.03.05 at 17h 41m 39s.xml">
       <configuration name="Task13Cart" configurationId="JUnit" />
     </history-entry>
@@ -884,6 +866,9 @@
       <configuration name="Task13Cart" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Task13Cart - 2018.03.05 at 21h 40m 05s.xml">
+      <configuration name="Task13Cart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Task13Cart - 2018.03.05 at 21h 42m 00s.xml">
       <configuration name="Task13Cart" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Task13Cart_TestCart - 2018.03.05 at 21h 20m 11s.xml">
@@ -1250,12 +1235,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="53" column="101" lean-forward="false" selection-start-line="53" selection-start-column="101" selection-end-line="53" selection-end-column="101" />
+        <state relative-caret-position="694">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2430#2431#0" expanded="true" />
-            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
           </folding>
         </state>
       </provider>

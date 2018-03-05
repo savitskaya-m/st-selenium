@@ -47,8 +47,6 @@ public class Task13Cart extends TestBase {
         if (isElemetPresent(By.cssSelector("[name=remove_cart_item]"))) {
             WebElement table = driver.findElement(By.cssSelector(".dataTable"));
             int rowCount = driver.findElements(By.cssSelector(".dataTable tr")).size();
-            System.out.println(rowCount);
-
             driver.findElement(By.cssSelector("[name=remove_cart_item]")).click();
             wait.until(ExpectedConditions.stalenessOf(table));
             assertEquals(rowCount - 1, driver.findElements(By.cssSelector(".dataTable tr")).size() );
