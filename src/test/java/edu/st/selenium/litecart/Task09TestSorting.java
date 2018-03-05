@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task9TestSorting extends TestBase {
+public class Task09TestSorting extends TestBase {
 
     @Test
     public void checkCountriesSorting() {

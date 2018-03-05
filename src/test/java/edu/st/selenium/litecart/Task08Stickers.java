@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Task8Stickers {
+public class Task08Stickers {
     private WebDriver driver;
     private WebDriverWait wait;
 

@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Task7LeftMenu {
+public class Task07LeftMenu {
     private WebDriver driver;
     private WebDriverWait wait;
 
