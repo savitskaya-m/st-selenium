@@ -36,7 +36,6 @@ public class Task18Logs extends TestBase {
 
                 assertEquals(0, logEntries.size());
                 driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");
-                wait.until(ExpectedConditions.titleIs("Catalog | My Store"));
                 tableRows = driver.findElements(By.cssSelector(".dataTable .row"));
             }
         }

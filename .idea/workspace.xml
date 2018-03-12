@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9817a617-c0b6-45fe-b995-806b073b6eed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task18Logs.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/Task13Cart.class" afterPath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/Task13Cart.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/TestBase.class" afterPath="$PROJECT_DIR$/out/test/classes/edu/st/selenium/litecart/TestBase.class" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/TestBase.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task18Logs.java" afterPath="$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task18Logs.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,18 +31,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task09TestSorting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task09TestSorting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="60" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Task14Windows.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task14Windows.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task18Logs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+              <caret line="26" column="75" lean-forward="false" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +71,9 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="33" />
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#2389#2390#0" expanded="true" />
                 <element signature="e#2447#2448#0" expanded="true" />
               </folding>
@@ -112,8 +96,8 @@
       <file leaf-file-name="Task12AddProduct.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task12AddProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1170">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="77" />
+            <state relative-caret-position="479">
+              <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="114" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#7111#7112#0" expanded="true" />
@@ -1151,18 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task12AddProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7111#7112#0" expanded="true" />
-            <element signature="e#7169#7170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task14Windows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -1179,14 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task10Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1219,13 +1183,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task10Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" column="52" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task13Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="33" />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#2389#2390#0" expanded="true" />
             <element signature="e#2447#2448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task12AddProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7111#7112#0" expanded="true" />
+            <element signature="e#7169#7170#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1233,7 +1218,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/st/selenium/litecart/Task18Logs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+          <caret line="26" column="75" lean-forward="false" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
