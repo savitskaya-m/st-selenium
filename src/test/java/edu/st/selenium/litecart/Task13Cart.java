@@ -34,7 +34,7 @@ public class Task13Cart extends TestBase {
     public void AddItemToCart() {
         int quantity = Integer.valueOf(driver.findElement(By.cssSelector(".quantity")).getAttribute("textContent"));
 
-        if (isElemetPresent(By.cssSelector("select[name='options[Size]']"))) {
+        if (isElementPresent(By.cssSelector("select[name='options[Size]']"))) {
             Select select = new Select(driver.findElement(By.cssSelector("select[name='options[Size]']")));
             select.selectByIndex(generateRandomInt(1, select.getOptions().size() - 1));
         }
@@ -44,7 +44,7 @@ public class Task13Cart extends TestBase {
     }
 
     public void RemoveItemFromCart() {
-        if (isElemetPresent(By.cssSelector("[name=remove_cart_item]"))) {
+        if (isElementPresent(By.cssSelector("[name=remove_cart_item]"))) {
             WebElement table = driver.findElement(By.cssSelector(".dataTable"));
             int rowCount = driver.findElements(By.cssSelector(".dataTable tr")).size();
             driver.findElement(By.cssSelector("[name=remove_cart_item]")).click();

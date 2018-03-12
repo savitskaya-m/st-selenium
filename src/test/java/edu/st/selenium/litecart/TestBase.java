@@ -33,7 +33,7 @@ public class TestBase {
         driver = null;
     }
 
-    public boolean isElemetPresent(By locator) {
+    public boolean isElementPresent(By locator) {
         try {
             driver.findElement(locator);
             return true;
@@ -42,7 +42,7 @@ public class TestBase {
         }
     }
 
-    public boolean areElemetsPresent(By locator) {
+    public boolean areElementsPresent(By locator) {
         try {
             return driver.findElements(locator).size() > 0;
         } catch (InvalidSelectorException e) {
