@@ -25,10 +25,15 @@ public class Task13Cart extends TestBase {
 
         int countShortcut = driver.findElements(By.cssSelector(".shortcuts .shortcut")).size();
 
-        for (int i = 0; i < countShortcut - 1; i++) {
-            driver.findElement(By.cssSelector(".shortcuts .shortcut")).click();
+        for (int i = 0; i < countShortcut; i++) {
+            if (i != countShortcut - 1) {
+                driver.findElement(By.cssSelector(".shortcuts .shortcut")).click();
+            }
             RemoveItemFromCart();
         }
+
+        driver.get("http://localhost/litecart/en/");
+        assertEquals("0", driver.findElement(By.cssSelector(".quantity")).getAttribute("textContent"));
     }
 
     public void AddItemToCart() {
@@ -49,7 +54,10 @@ public class Task13Cart extends TestBase {
             int rowCount = driver.findElements(By.cssSelector(".dataTable tr")).size();
             driver.findElement(By.cssSelector("[name=remove_cart_item]")).click();
             wait.until(ExpectedConditions.stalenessOf(table));
-            assertEquals(rowCount - 1, driver.findElements(By.cssSelector(".dataTable tr")).size() );
+
+            if (isElementPresent(By.cssSelector(".dataTable"))) {
+                assertEquals(rowCount - 1, driver.findElements(By.cssSelector(".dataTable tr")).size());
+            }
         }
     }
 
